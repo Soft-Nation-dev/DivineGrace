@@ -1,5 +1,6 @@
 .header-section{
     background-image: url(images/background\ image.png);
+
     
 }
 
@@ -58,10 +59,24 @@ header{
     text-decoration: underline;
     transform: scale(1.05);
 }
+
+.buger-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .buger{
     height: 30px;
 }
-.buger-div{
-    display: none;
+
+@media (min-width:900px){
+    .buger-div{
+        display: none;
+    }
 }
 
+@media (max-width:900px){
+    .navigation-div{
+        display: none;
+    }
+}
