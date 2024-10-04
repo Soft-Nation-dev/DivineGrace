@@ -17,8 +17,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 15px; 
-    padding-left: 50px;
-    padding-right: 50px;   
+    padding-left: 30px;
+    padding-right: 30px;   
 }
 
 .logo-img, .logo-imgg{
@@ -78,5 +78,16 @@ header{
 @media (max-width:900px){
     .navigation-div{
         display: none;
+    }
+    .header-div{
+        padding-left: 10px;
+        padding-right: 10px;  
+    }
+}
+
+@media (max-width:830px){
+    .header-div{
+        padding-left: 10px;
+        padding-right: 10px;  
     }
 }
