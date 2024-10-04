@@ -9,13 +9,13 @@
 }
 .first-body-section-first-div{
     padding-left: 60px;
+    flex-basis: 50%;
 }
 .intro-d{
     color: rgb(1, 41, 112);
     font-family: "Nunito", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    width: 500px;
     margin-bottom: 0;
 }
 .intro-l{
@@ -66,7 +66,6 @@
 .lst-div{
     background-color: #f6f9ff;
     flex-basis: 75%;
-    padding: 20px;
     border-radius: 50px;
     cursor: pointer;
     transition-duration: 0.5s;
@@ -88,6 +87,7 @@
     color: #4154f1;
     font-family: "Nunito", sans-serif;
     text-align: center;
+    padding-top: 10px;
 }
 
 .lst-writeup{
@@ -96,6 +96,7 @@
     color: #012970;
     font-family: "Nunito", sans-serif;
     margin-top: 30px;
+    padding-left: 10px;
 }
 
 .Register-p{
@@ -107,7 +108,8 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    padding-left: 10px;
 }
 
 .button-div{
@@ -123,7 +125,7 @@
     background: #4154f1;
     box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -139,7 +141,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin-top: 50px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     column-gap: 30px;
 
@@ -218,10 +220,10 @@
 
 .visionwriteup-p{
     color: rgb(68, 68, 68);
-font-family: "Open Sans", sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .last-section-div{
@@ -338,9 +340,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-        .intro-d{
-        width: auto;
     }
     .first-body-section-first-div{
         padding-left: 0px;
