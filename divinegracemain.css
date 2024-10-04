@@ -15,7 +15,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    width: 400px;
+    width: 500px;
     margin-bottom: 0;
 }
 .intro-l{
@@ -338,6 +338,9 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+        .intro-d{
+        width: auto;
     }
     .first-body-section-first-div{
         padding-left: 0px;
